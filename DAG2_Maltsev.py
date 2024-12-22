@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from transform_script import transform  # импортируем функцию transfrom из скрипта
 
 # Настройки по умолчанию для DAG
-DAG_ID = 'Bondareva_Alina_dag2'  # имя DAG
+DAG_ID = 'Maltsev_dag2'  # имя DAG
 default_args = {
     'owner': 'airflow',  # владелец DAG
     'start_date': pendulum.datetime(2023, 4, 5, tz=pendulum.timezone("Europe/Moscow")),  # дата начала выполнения DAG
